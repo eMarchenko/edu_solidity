@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 var HDWalletProvider = require("@truffle/hdwallet-provider");
 
 
@@ -37,7 +37,8 @@ module.exports = {
     }
   },
   plugins: [
-    'truffle-plugin-verify'
+    "truffle-plugin-verify",
+    "solidity-coverage"
   ],
   api_keys: { // used by 'truffle-plugin-verify'
     etherscan: process.env.ETHERSCAN_API_KEY
