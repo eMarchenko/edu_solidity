@@ -6,12 +6,7 @@ contract Test {
         value = x;
     }
 
-    function foo(uint y) external returns (bool) {
-        uint x = value;
-        if (x == y) {
-            return true;
-        }
-        value = uint(keccak256(abi.encode(x+y)));
-        return false;
+    function foo(uint y) external view returns (bool) {
+        return value == y;
     } 
 }
