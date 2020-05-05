@@ -1,0 +1,34 @@
+{
+  "name": "edu_solidity",
+  "version": "1.0.0",
+  "description": "Eduational Solidity project",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "ganache-cli": "^6.9.1",
+    "truffle": "^5.1.23",
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "dotenv": "^8.2.0",
+    "truffle-plugin-verify": "^0.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test",
+    "compile": "./node_modules/.bin/truffle compile",
+    "deploy": "./node_modules/.bin/truffle deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eMarchenko/edu_solidity.git"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "github"
+  ],
+  "author": "Evgeny Marchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eMarchenko/edu_solidity/issues"
+  },
+  "homepage": "https://github.com/eMarchenko/edu_solidity#readme"
+}
