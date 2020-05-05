@@ -14,7 +14,7 @@
     "coveralls": "^3.1.0"
   },
   "scripts": {
-    "test": "npx truffle test",
+    "test-ci": "npx ganache-cli& npx truffle test",
     "coverage": "npx truffle run coverage && cat coverage/lcov.info | coveralls"
   },
   "repository": {
