@@ -1,0 +1,11 @@
+{
+    "custom_unit_test": {
+        "enabled": true, 
+        "commands": [
+            {
+                "command": ["/bin/bash", "-c", "echo npm test-ci"], 
+                "expected": "{RETURN_CODE} == 0"
+            }
+        ]
+    }
+}
