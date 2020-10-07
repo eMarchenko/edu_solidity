@@ -14,7 +14,7 @@
     "truffle-plugin-verify": "^0.3.10"
   },
   "scripts": {
-    "test-ci": "npx ganache-cli& npx truffle test",
+    "test-ci": "npx ganache-cli -q & npx truffle test",
     "coverage": "npx truffle run coverage && cat coverage/lcov.info | coveralls"
   },
   "repository": {
