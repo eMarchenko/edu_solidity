@@ -12,10 +12,13 @@ contract TestAsserts is Test(2) {
     } 
 
 
-    function echidnaNotFive() external view returns (bool) {
+    function echidnaNotFive() public view returns (bool) {
         return value != 5;
     }
-    function echidnaShouldFail() external pure returns (bool) {
+    function echidnaShouldFail() public pure returns (bool) {
         return false;
+    }
+    function echidnaShouldPass() public pure returns (bool) {
+        return true;
     } 
 }
