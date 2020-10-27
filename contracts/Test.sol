@@ -1,4 +1,4 @@
-pragma solidity ^0.5.14;
+pragma solidity ^0.6.12;
 
 contract Test {
     uint private value; 
