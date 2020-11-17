@@ -1,16 +1,9 @@
-pragma solidity ^0.6.12;
+pragma solidity ^0.5.0;
 
 import "./Test.sol";
 
-contract TestAsserts is Test(2) {
-
-    function assertNotFive(uint y) external view {
-        assert(value != y);
-    } 
-    function assertFails() external pure {
-        assert(false);
-    } 
-
+contract TestAsserts {
+    Test test = new Test(2);
 
     function echidnaNotFive() public view returns (bool) {
         return value != 5;
