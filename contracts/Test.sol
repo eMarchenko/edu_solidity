@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract Test {
-    uint internal value; 
+    uint public value; 
     constructor(uint x) public {
         value = x;
     }

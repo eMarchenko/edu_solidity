@@ -6,7 +6,7 @@ contract TestAsserts {
     Test test = new Test(2);
 
     function echidnaNotFive() public view returns (bool) {
-        return value != 5;
+        return test.value() != 5;
     }
     function echidnaShouldFail() public pure returns (bool) {
         return false;
