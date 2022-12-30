@@ -10,7 +10,7 @@
     "dotenv": "^8.2.0",
     "ganache-cli": "^6.11.0",
     "solidity-coverage": "^0.7.5",
-    "truffle": "^5.1.47",
+    "truffle": "^5.7.1",
     "truffle-plugin-verify": "^0.3.10"
   },
   "scripts": {
